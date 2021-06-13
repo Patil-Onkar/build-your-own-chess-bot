@@ -19,7 +19,24 @@ There are two major steps - 1. Create a chess engine. 2. Link it to lichess API.
 
     -  Convert main.py script in executable format. Or use already converted executable files from 'dist/main' (Not Recommended).  
     
-    -  To make experiment with search algorithm. 'Iterative deepening','quinescene search' and 'Generate move' are three scripts to generate a chess move. You can make chages to it or create your own. And to check the improvement, use play.py script that will allow you to fight among your bots.
+    -  To make experiment with search algorithm. 'Iterative deepening','quinescene search' and 'Generate move' are three scripts to generate a chess move by three different ways. You can make chages to it or create your own. 
     
-    - Link the 
+    - Run play.py script to compete between different move generation scripts. It helps to know how well the algorithm work.
+    
+### Link to lichess API.  
+
+    - Download the lichess-bot-bridge from - https://github.com/ShailChoksi/lichess-bot  
+    
+    - Create a bot account on lichess platform. - https://lichess.org/api#operation/botAccountUpgrade  
+    
+    - Enter the bot credentials in configure.yml file. In lichess-bot repo 
+    
+    - Copy all executable files of main.py into engine folder - In lichess-bot repo  
+    
+    - Run lichess-bot.py  
+    
+    
+## Future Work  
+
+  - Use Reinforcement learning and monte-carlo tree 
  
