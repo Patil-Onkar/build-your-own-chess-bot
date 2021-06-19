@@ -1,6 +1,6 @@
 # Build your own chess bot  
 
-![](chess_gif1.gif)  
+![](chess_gif2.gif)  
 
 
 
